@@ -7,44 +7,101 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    
     <title>Ian Portfolio</title>
+  </head>
+  <body>
 
     <div class="container-fluid">
-      <p class="text-center">Ian Martinez</p>
+      <p class="text-center text-info h1">Ian Martinez</p>
     </div>
 
-
+    <!-- this is the nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About </a>
+            <a class="nav-link text-info" href="index.html">About </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link text-info" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Contacts</a>
+            <a class="nav-link text-info" href="contacts.html">Contacts</a>
           </li>
         </ul>
       </div>
     </nav>
-  </head>
-  <body>
-    
+    <!-- end of nav -->
+<!-- this is the portfolio title -->
     <div class="container">
       <div class="row">
-        <div class="col-sm-6">
-          One of three columns
+        <div class="col-sm-7 col mb-2 mt-2" >
+          <p  class="h3 text-info">Portfolio</p>
+      </div>
+    </div>
+
+
+    <!-- first row, containing two project cards -->
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-sm-4 col-md-6 col-lg-4">
+          <!-- first card, word guess -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://tinyurl.com/ya9ywahh" height= 250px width=250px class="card-img-top" alt="crossWordPuzzle">
+            <div class="card-body">
+              <p class="card-text text-center p-3 mb-2 bg-info text-dark">Word Guess</p>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-6">
-          One of three columns
+        <div class="col-sm-4 col-md-6 col-lg-4">
+          <!-- second card, rpg game -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://tinyurl.com/ycepv9gl" height= 250px width=250px class="card-img-top" alt="20sidedDie">
+            <div class="card-body">
+              <p class="card-text text-center p-3 mb-2 bg-info text-dark">RPG Game</p>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- second row containing, two project cards -->
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-sm-4 col-md-6 col-lg-4">
+          <!-- third card, trivia game -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://tinyurl.com/ybw7xfm9" height= 250px width=250px class="card-img-top" alt="wooden blocks spelling trivia">
+            <div class="card-body">
+              <p class="card-text text-center p-3 mb-2 bg-info text-dark">Trivia Game</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-4">
+          <!-- fourth card, info widget  -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://tinyurl.com/y8d7xtbs" height= 250px width=250px class="card-img-top" alt="letter I">
+            <div class="card-body">
+              <p class="card-text text-center p-3 mb-2 bg-info text-dark">Info Widget</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- third row containing one project card -->
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-sm-4 col-md-6 col-lg-4">
+          <!-- fifth card, rock paper scissors -->
+          <div class="card" style="width: 18rem;">
+            <img src="https://tinyurl.com/ybc7s4s6" height= 250px width=250px class="card-img-top" alt="rock paper scissor hand formations">
+            <div class="card-body">
+              <p class="card-text text-center p-3 mb-2 bg-info text-dark">Rock, Paper, Scissor, Game</p>
+            </div>
+          </div>
       </div>
     </div>
 
